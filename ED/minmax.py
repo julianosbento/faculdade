@@ -20,9 +20,6 @@ def maxmin(se):
         return recr(se,1,se[0],se[0])
 
 
-f=[1,5,6,2,8,7,3,9,15,20,2,-3,-5,36]
-
-print(maxmin(f))
 
 '''
 o código demora O(n) pois vai percorrer o vetor inteiro,
