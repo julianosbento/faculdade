@@ -13,9 +13,9 @@ def recr(se,c,mini,maxi):
 
 def maxmin(se):
     if len(se)==0:
-        return null
+        return null,null
     elif len(se)==1:
-        return se,se
+        return se[0],se[0]
     else:
         return recr(se,1,se[0],se[0])
 
@@ -24,6 +24,5 @@ def maxmin(se):
 '''
 o código demora O(n) pois vai percorrer o vetor inteiro,
 até que a variável cursor se igualar ao tamanho.
-e usa n pilhas de memória, pois por ser recursiva, cada vez ele vai se chamar
-até que pare no último.
+memória O(n)
 '''
