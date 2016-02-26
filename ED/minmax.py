@@ -13,7 +13,7 @@ def recr(se,c,mini,maxi):
 
 def maxmin(se):
     if len(se)==0:
-        return null,null
+        return None,None
     elif len(se)==1:
         return se[0],se[0]
     else:
